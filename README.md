@@ -1,16 +1,16 @@
-# 💳 Credit Card Fraud Detection
+# Credit Card Fraud Detection
 
-## 📌 Problem
+## Problem
 Credit card fraud detection is a classic imbalanced 
 classification problem — only 0.23% of transactions 
 are fraudulent.
 
-## 📊 Dataset
+## Dataset
 - 87,239 real banking transactions
 - 30 features (V1-V28 PCA + Time + Amount)
 - Target : Class (0 = Normal, 1 = Fraud)
 
-## 🔧 Approach
+## Approach
 1. Data Cleaning
 2. Class Imbalance Analysis (0.23% fraud rate)
 3. SMOTE to balance training data
@@ -18,7 +18,7 @@ are fraudulent.
 5. Evaluation : Recall + ROC-AUC
 6. Feature Importance Analysis
 
-## 📈 Results
+## Results
 
 | Model | Precision | Recall | F1 | ROC-AUC |
 |-------|-----------|--------|----|---------|
